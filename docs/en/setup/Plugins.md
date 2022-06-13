@@ -36,7 +36,6 @@ Library | Python Version - Lib Version | Plugin Name
 | [tornado](https://www.tornadoweb.org) | Python >=3.6 - ['6.0', '6.1'];  | `sw_tornado` |
 | [urllib3](https://urllib3.readthedocs.io/en/latest/) | Python >=3.6 - ['1.26', '1.25'];  | `sw_urllib3` |
 | [urllib_request](https://docs.python.org/3/library/urllib.request.html) | Python >=3.6 - ['*'];  | `sw_urllib_request` |
-|||||
 ### Notes
 - The celery server running with "celery -A ..." should be run with the HTTP protocol
 as it uses multiprocessing by default which is not compatible with the gRPC protocol implementation

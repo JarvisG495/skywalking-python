@@ -57,7 +57,6 @@ dev-fix: dev-setup
 doc-gen:
 	$(VENV)/python tools/doc/plugin_doc_gen.py
 
-# check if the doc is generated correctly
 check-doc-gen:
 	$(MAKE) clean
 	$(VENV)/python tools/doc/plugin_doc_gen.py
